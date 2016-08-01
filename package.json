@@ -1,0 +1,28 @@
+{
+  "name": "containership.plugin.metrics",
+  "version": "1.0.0",
+  "description": "Official metric plugin for ContainerShip",
+  "main": "application.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "ContainerShip Developers <developers@containership.io>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "containership.plugin": "^0.3.0",
+    "lodash": "^3.0.0"
+  },
+  "keywords": [
+    "metrics",
+    "containership",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/containership/containership.plugin.metrics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/containership/containership.plugin.metrics/issues"
+  },
+  "homepage": "https://github.com/containership/containership.plugin.metrics"
+}
