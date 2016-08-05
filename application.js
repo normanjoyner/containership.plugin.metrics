@@ -108,8 +108,8 @@ module.exports = new ContainershipPlugin({
                                 },
                                 volumes: [
                                     {
-                                        host: '/mnt/containership/metrics',
-                                        container: '/mnt/containership/metrics'
+                                        host: '/opt/containership/metrics',
+                                        container: '/opt/containership/metrics'
                                     }
                                 ]
                             }, () => {
